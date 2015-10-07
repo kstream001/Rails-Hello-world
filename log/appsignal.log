@@ -175,3 +175,12 @@ E, [2015-10-07T13:09:59.901245 #5245] ERROR -- : Aggregator queue to large, remo
 I, [2015-10-07T13:10:07.412830 #5603]  INFO -- : Loading Rails (4.2.4) integration
 I, [2015-10-07T13:10:07.950480 #5603]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
 I, [2015-10-07T13:10:07.954622 #5603]  INFO -- : Started Appsignal agent
+I, [2015-10-07T15:00:34.183186 #6084]  INFO -- : Loading Rails (4.2.4) integration
+I, [2015-10-07T15:00:35.609172 #6084]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
+I, [2015-10-07T15:00:35.622635 #6084]  INFO -- : Started Appsignal agent
+I, [2015-10-07T15:01:09.596726 #6124]  INFO -- : Loading Rails (4.2.4) integration
+I, [2015-10-07T15:01:10.108664 #6124]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
+I, [2015-10-07T15:01:10.111673 #6124]  INFO -- : Started Appsignal agent
+I, [2015-10-07T16:00:21.376116 #8765]  INFO -- : Loading Rails (4.2.4) integration
+I, [2015-10-07T16:00:22.655890 #8765]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
+I, [2015-10-07T16:00:22.674160 #8765]  INFO -- : Started Appsignal agent
