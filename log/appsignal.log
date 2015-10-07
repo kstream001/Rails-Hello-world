@@ -1,0 +1,177 @@
+# Logfile created on 2015-10-07 11:04:34 +0530 by logger.rb/47272
+I, [2015-10-07T11:04:33.603841 #3220]  INFO -- : Loading Rails (4.2.4) integration
+E, [2015-10-07T11:04:34.120419 #3220] ERROR -- : Not loading: No config file found at '/usr/Test/tutorials/hello_world/config/appsignal.yml' and no APPSIGNAL_PUSH_API_KEY env var present
+I, [2015-10-07T11:04:34.120472 #3220]  INFO -- : Not starting, not active for development
+I, [2015-10-07T12:04:35.621697 #4603]  INFO -- : Loading Rails (4.2.4) integration
+I, [2015-10-07T12:04:36.893620 #4603]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
+I, [2015-10-07T12:04:36.935822 #4603]  INFO -- : Started Appsignal agent
+I, [2015-10-07T12:06:03.746435 #4678]  INFO -- : Loading Rails (4.2.4) integration
+I, [2015-10-07T12:06:04.711653 #4678]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
+I, [2015-10-07T12:06:04.714518 #4678]  INFO -- : Started Appsignal agent
+I, [2015-10-07T12:10:12.150210 #4937]  INFO -- : Loading Rails (4.2.4) integration
+I, [2015-10-07T12:10:13.058094 #4937]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
+I, [2015-10-07T12:10:13.076324 #4937]  INFO -- : Started Appsignal agent
+I, [2015-10-07T12:22:40.470616 #5175]  INFO -- : Loading Rails (4.2.4) integration
+I, [2015-10-07T12:22:40.904703 #5175]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
+I, [2015-10-07T12:22:40.907519 #5175]  INFO -- : Started Appsignal agent
+I, [2015-10-07T12:29:10.361292 #5245]  INFO -- : Loading Rails (4.2.4) integration
+I, [2015-10-07T12:29:11.294426 #5245]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
+I, [2015-10-07T12:29:11.302835 #5245]  INFO -- : Started Appsignal agent
+E, [2015-10-07T12:47:52.101339 #5245] ERROR -- : SocketError while sending queue: getaddrinfo: Name or service not known
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:879:in `initialize'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:879:in `open'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:879:in `block in connect'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/timeout.rb:73:in `timeout'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:878:in `connect'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:863:in `do_start'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:852:in `start'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:1375:in `request'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/instrumentations/net_http.rb:12:in `block in request'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.4/lib/active_support/notifications.rb:164:in `block in instrument'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.4/lib/active_support/notifications.rb:164:in `instrument'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/instrumentations/net_http.rb:5:in `request'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:51:in `transmit'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:133:in `block in send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `map!'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:120:in `send_queue'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:42:in `block (2 levels) in start_thread'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `loop'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `block in start_thread'
+E, [2015-10-07T12:49:10.054805 #5245] ERROR -- : SocketError while sending queue: getaddrinfo: Name or service not known
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:879:in `initialize'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:879:in `open'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:879:in `block in connect'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/timeout.rb:73:in `timeout'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:878:in `connect'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:863:in `do_start'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:852:in `start'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:1375:in `request'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/instrumentations/net_http.rb:12:in `block in request'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.4/lib/active_support/notifications.rb:164:in `block in instrument'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.4/lib/active_support/notifications.rb:164:in `instrument'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/instrumentations/net_http.rb:5:in `request'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:51:in `transmit'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:133:in `block in send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `map!'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:120:in `send_queue'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:42:in `block (2 levels) in start_thread'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `loop'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `block in start_thread'
+E, [2015-10-07T12:49:36.214019 #5245] ERROR -- : SocketError while sending queue: getaddrinfo: Name or service not known
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:879:in `initialize'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:879:in `open'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:879:in `block in connect'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/timeout.rb:73:in `timeout'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:878:in `connect'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:863:in `do_start'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:852:in `start'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/2.2.0/net/http.rb:1375:in `request'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/instrumentations/net_http.rb:12:in `block in request'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.4/lib/active_support/notifications.rb:164:in `block in instrument'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.4/lib/active_support/notifications.rb:164:in `instrument'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/instrumentations/net_http.rb:5:in `request'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:51:in `transmit'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:133:in `block in send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `map!'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:120:in `send_queue'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:42:in `block (2 levels) in start_thread'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `loop'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `block in start_thread'
+E, [2015-10-07T12:49:47.047555 #5245] ERROR -- : JSON::GeneratorError while sending queue: only generation of JSON objects or arrays allowed
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:15:in `json_generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:7:in `initialize'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `new'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `transmit'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:133:in `block in send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `map!'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:120:in `send_queue'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:42:in `block (2 levels) in start_thread'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `loop'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `block in start_thread'
+E, [2015-10-07T12:49:58.625752 #5245] ERROR -- : JSON::GeneratorError while sending queue: only generation of JSON objects or arrays allowed
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:15:in `json_generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:7:in `initialize'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `new'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `transmit'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:133:in `block in send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `map!'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:120:in `send_queue'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:42:in `block (2 levels) in start_thread'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `loop'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `block in start_thread'
+E, [2015-10-07T12:49:58.625865 #5245] ERROR -- : Aggregator queue to large, removing items
+E, [2015-10-07T13:03:22.167268 #5245] ERROR -- : JSON::GeneratorError while sending queue: only generation of JSON objects or arrays allowed
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:15:in `json_generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:7:in `initialize'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `new'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `transmit'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:133:in `block in send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `map!'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:120:in `send_queue'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:42:in `block (2 levels) in start_thread'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `loop'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `block in start_thread'
+E, [2015-10-07T13:03:22.167439 #5245] ERROR -- : Aggregator queue to large, removing items
+E, [2015-10-07T13:07:03.199731 #5245] ERROR -- : JSON::GeneratorError while sending queue: only generation of JSON objects or arrays allowed
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:15:in `json_generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:7:in `initialize'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `new'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `transmit'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:133:in `block in send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `map!'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:120:in `send_queue'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:42:in `block (2 levels) in start_thread'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `loop'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `block in start_thread'
+E, [2015-10-07T13:07:03.199839 #5245] ERROR -- : Aggregator queue to large, removing items
+E, [2015-10-07T13:09:44.104873 #5245] ERROR -- : JSON::GeneratorError while sending queue: only generation of JSON objects or arrays allowed
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:15:in `json_generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:7:in `initialize'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `new'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `transmit'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:133:in `block in send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `map!'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:120:in `send_queue'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:42:in `block (2 levels) in start_thread'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `loop'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `block in start_thread'
+E, [2015-10-07T13:09:44.105000 #5245] ERROR -- : Aggregator queue to large, removing items
+E, [2015-10-07T13:09:59.900346 #5245] ERROR -- : JSON::GeneratorError while sending queue: only generation of JSON objects or arrays allowed
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/json-1.8.3/lib/json/common.rb:223:in `generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:15:in `json_generate'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/zipped_payload.rb:7:in `initialize'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `new'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/transmitter.rb:48:in `transmit'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:133:in `block in send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `map!'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:131:in `send_aggregators'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:120:in `send_queue'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:42:in `block (2 levels) in start_thread'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `loop'
+/home/jagan/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/appsignal-0.11.15/lib/appsignal/agent.rb:40:in `block in start_thread'
+E, [2015-10-07T13:09:59.901245 #5245] ERROR -- : Aggregator queue to large, removing items
+I, [2015-10-07T13:10:07.412830 #5603]  INFO -- : Loading Rails (4.2.4) integration
+I, [2015-10-07T13:10:07.950480 #5603]  INFO -- : Starting AppSignal 0.11.15 on 2.2.3/x86_64-linux
+I, [2015-10-07T13:10:07.954622 #5603]  INFO -- : Started Appsignal agent
