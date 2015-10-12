@@ -25,3 +25,6 @@ build:
         - script:
             name: rspec
             code: bundle exec rspec
+    after-steps:
+        - mzp/http-notify:
+        url: https://app.kore.com/hooks/dcdd3f8707246f8b16db8de60a75ee33
